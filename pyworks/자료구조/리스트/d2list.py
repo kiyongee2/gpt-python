@@ -15,3 +15,6 @@ for row in a :
     for x in row: 
         print(x, end=" ") # 1 2 3
     print() # 4 5 6 
+    
+for row in a:
+    print(sum(row))
